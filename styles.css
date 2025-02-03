@@ -29,3 +29,11 @@ table {
     font-size: 17px;
     font-family: Gill Sans;
 }
+tr.class2:hover {
+    background-color: rgb(90, 160, 122);
+    color: white;
+}
+tr.class1:hover {
+    background-color: rgb(90, 160, 122);
+    color: white;
+}
