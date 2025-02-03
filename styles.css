@@ -1,15 +1,31 @@
-table,th,td {
-    border: 1px solid;
-    border-collapse: collapse;
+tr.class1{
+    background-color: green;
+}
+tr.class2{
+    background-color: rgb(94, 190, 137);
 }
 table {
-    width: 80%; /*weboldal szélessége*/
-    background-color: green; /*háttérszín*/
-    color: white; /*betűszín*/
-    font-family: 'Courier New', Courier, monospace; /*betűtípus*/
-    font-size: 30; /*betűméret*/
+    background-color: green;
+    color: white;
+    font-family:'Gill Sans MT';
+    font-size: 25px;
+    width: 70%;
+    margin-left: 30px;
+    border-collapse: collapse;
+    padding: 0%;
 }
-
-th{
-    background-color: black;
+.small-col{
+    font-size: 20px;
+    width: 4%;
+    text-align: center;
+}
+.small-text {
+    font-size: 12px;  /* Kisebb betűméret */
+    line-height: 1;    /* Sorok közötti távolság minimalizálása */
+    display: inline-block; /* Hogy a méret ne nyújtsa meg a fejlécet */
+    text-align: center; /* Középre igazítás */
+}
+.erkezes {
+    font-size: 17px;
+    font-family: Gill Sans;
 }
