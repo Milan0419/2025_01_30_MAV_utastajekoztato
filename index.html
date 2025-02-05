@@ -7,6 +7,10 @@
     <script src="script.js"></script>
 </head>
 <body>
+    <a href="#">
+        <button>Főoldal</button>
+      </a>
+      <br></br>
     <a href="https://mav.hu">
         <button>Hivatalos MÁV oldal</button>
       </a>
@@ -20,7 +24,7 @@
                 <th colspan="2" style="background-color: lightgray; color: green" id="ido"></th>
                 <th colspan="2">MÁV induló járatok</th>
                 <th class="small-text">Arrivals</th>
-                <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/BSicon_MAV.svg/2048px-BSicon_MAV.svg.png" alt="MÁV" width="35px"></th>
+                <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/BSicon_MAV.svg/2048px-BSicon_MAV.svg.png" alt="MÁV" width="35px" class="mavlogo"></th>
             </tr>
         <tr class="class3">
             <th class="small-col">Tervezett érkezés</th>
@@ -85,5 +89,58 @@
             <td class="small-col">4</td>
         </tr>
     </table>
+
+    <!-- Ezt a barátnőm kérte tanárúr -->
+    <a href="default.asp">
+    
+    </a>
 </body>
+
+
+<div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <p class="text-center mt-5">
+          <a href="#headerPopup" id="headerVideoLink" target="_blank" class="btn btn-outline-danger popup-modal"><img src="ribbon.png" alt="" class="ribbon"></a>
+        </p>
+        <div id="headerPopup" class="mfp-hide embed-responsive embed-responsive-21by9">
+          <iframe class="embed-responsive-item" width="854" height="480" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+  
+  <script>
+    $( document ).ready(function() {
+      $('#headerVideoLink').magnificPopup({
+      type:'inline',
+      midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+      });
+  });
+     
+  </script>
+  <style>
+    /* CSS Document */
+    #headerPopup{
+      width:75%;
+      margin:0 auto;
+    }
+    
+    #headerPopup iframe{
+      width:100%;
+      margin:0 auto;
+    }
+    </style>
 </html>
