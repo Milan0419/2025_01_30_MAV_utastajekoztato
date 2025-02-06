@@ -199,7 +199,7 @@ if (pluszora5<10)
  // Dokumentum "id" tag-be hozzáadás
  document.getElementById("idoHozzaadas5").innerHTML = pluszora5 + ":" + pluszperc5
 
-// plusz ido 6
+// plusz ido 6 .. keses
 function idoHozzaadas6(objDatum, alapOra) {
     var idoSzamlalas = objDatum;
     var hozzaadottMasodperc = (alapOra * 60) * 60 * 1000;
@@ -210,7 +210,7 @@ function idoHozzaadas6(objDatum, alapOra) {
 
 
 // Idő hozzáadáshoz itt változtatjuk a számot
-let kivalasztottIdo6 = idoHozzaadas6(Date.now(), 0.19);
+let kivalasztottIdo6 = idoHozzaadas6(Date.now(), 0.32);
 let pluszora6 = kivalasztottIdo6.getHours();
 let pluszperc6 = kivalasztottIdo6.getMinutes();
 if (pluszora6<10)
@@ -234,5 +234,8 @@ setInterval(ido,100);
 setInterval(idoHozzaadas,100);
 setInterval(idoHozzaadas1,100);
 setInterval(idoHozzaadas2,100);
-    
+setInterval(idoHozzaadas3,100);
+setInterval(idoHozzaadas4,100);
+setInterval(idoHozzaadas5,100);
+setInterval(idoHozzaadas6,100);
 
