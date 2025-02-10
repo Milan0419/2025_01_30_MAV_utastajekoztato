@@ -63,8 +63,8 @@ button:hover{
 }
 img.ribbon{
     width: 7%;
-    padding-left: 1290px;
-    margin-top: -570px; 
+    padding-left: 1600px;
+    margin-top: -640px; 
     transition: 0.3s;
     rotate: 25deg;
 }
