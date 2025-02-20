@@ -230,6 +230,9 @@ if (pluszora6<10)
 
 
     }
+
+
+
 setInterval(ido,100);
 setInterval(idoHozzaadas,100);
 setInterval(idoHozzaadas1,100);
