@@ -10,12 +10,19 @@
             font-weight: bold;
             text-align: center;
             margin-top: 50px;
+        }     
+         #text-container1 {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 50px;
         }
     </style>
 </head>
 <body>
 
 <div id="text-container">Első szöveg</div>
+<div id="text-container1">Első szöveg</div>
 
 <script>
     const texts = [
@@ -31,7 +38,22 @@
         document.getElementById("text-container").textContent = texts[index];
     }
 
-    setInterval(changeText, 500); // 5 másodpercenként vált
+    setInterval(changeText, 500); // 5 másodpercenként vált 
+
+    const texts1 = [
+        "Első szöveg",
+        "Második szöveg",
+        "Harmadik szöveg",
+        "Negyedik szöveg"
+    ];
+
+    let index1 = 0;
+    function changeText1() {
+        index = (index1 + 1) % texts1.length; // Körbe megy a szövegek között
+        document.getElementById("text-container1").textContent1 = texts1[index];
+    }
+
+    setInterval(changeText1, 500); // 5 másodpercenként vált
 </script>
 
 </body>
