@@ -1,17 +1,18 @@
 ## MÁV utastájékoztató
 
-Ez a projekt egy egyszerű webes felület, a MÁV Utastájékoztató másolata. A weboldal **HTML** és **CSS** segítségével készült, és egy táblázatos formátumban jeleníti meg az aktuális menetrendet.
+Ez a projekt egy egyszerű webes felület, a MÁV Utastájékoztató másolata. A weboldal **CSS** és **HTML** segítségével készült, és egy táblázatos formátumban jeleníti meg az aktuális menetrendet.
 
 ![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTENgTB9awH7gVkBdPfobi765VMPjRs7Xofmg&s)
 
-### 📌 Funkciók (Nem valós idejű)
-- 🚉 Induló és érkező vonatok listázása táblázatban
-- ⏰ Állomás, indulási és érkezési idők megjelenítése
-- 🎨 Felhasználóbarát, letisztult dizájn
+### 🕖 Funkciók (Nem valós idejű)
+- 👌 Induló és érkező vonatok listázása 2 külön táblázatban
+- ☠️ Állomás, indulási és érkezési idők megjelenítése
+- 🆔 Felhasználóbarát, letisztult külső
 
-### 🚀 Használat
-Egyszerűen nyisd meg a `https://milan0419.github.io/2025_01_30_MAV_utastajekoztato/` weboldalt a böngészőben, és a rendszer betölti az aktuális adatokat.
-#### 🌍 Élő demó
+### 😎 Használat
+Nyisd meg a `https://milan0419.github.io/2025_01_30_MAV_utastajekoztato/` weboldalt a böngészőben.
+
+#### 🌍 Élő honlap
 
 A projekt élőben megtekinthető az alábbi linken:  
 [🔗 MÁV Utastájékoztató](https://milan0419.github.io/2025_01_30_MAV_utastajekoztato/)
@@ -24,7 +25,6 @@ A projekt élőben megtekinthető az alábbi linken:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MÁV Utastájékoztató</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>MÁV Utastájékoztató</h1>
@@ -70,8 +70,3 @@ table {
     box-shadow: 10px 10px 10px black;
 }
 ```
-
-### 🔧 Fejlesztési lehetőségek
-- [ ] 🔄 Dinamikus adatbetöltés API-n keresztül
-- [ ] 🔍 Keresési és szűrési lehetőségek
-- [x] 📱 Reszponzív megjelenítés mobileszközökre
